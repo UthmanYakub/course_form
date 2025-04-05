@@ -4,7 +4,7 @@ body {
       padding: 0;
     }
     #printDiv {
-      background-image: url('../bglogo.jpg');
+      background-image: url('../img/bglogo.jpg');
       padding: 20px;
     }
     .course-form-container {
