@@ -119,9 +119,9 @@ body {
       flex-direction: row;
     }
     .info-table{
-      flex: 50%;
+      flex: 4;
     }
-    .student-info div img {
-      width: 100%;
+    .student-info div:last-of-type{
+      flex: 1;
     }
 }
