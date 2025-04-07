@@ -3,7 +3,7 @@ body {
       margin: 0;
       padding: 0;
     }
-    #printDiv {
+    #bg {
       background-image: url('../img/bglogo.jpg');
       padding: 20px;
     }
@@ -16,7 +16,8 @@ body {
       display: flex;
       justify-content: center;
       margin-bottom: 30px;
-    }.header-logo img {
+    }
+    .header-logo img {
       width: 100%;
     }
     .student-info {
@@ -26,46 +27,57 @@ body {
       flex-wrap: wrap;
       margin-bottom: 30px;
     }
+    .student-info div:last-of-type {
+      margin: auto 0;
+    }
     .info-table {
       display: grid;
       grid-template-columns: auto auto;
-      gap: 10px 20px;
+      gap: 8px 30px;
     }
     .info-item {
       font-size: 14px;
-      padding: 5px 0;
-      list-style: none;
+      padding: 3px;
+      list-style: square !important;
     }
     .section-title {
-      font-size: 17.5px;
+      font-size: 16px;
+      line-height: 250%;
       border-left: 10px solid #006600;
       padding-left: 10px;
       margin-bottom: 10px;
     }
     .course-grid {
       display: grid;
-      grid-template-columns: 1fr 3fr 1fr 1fr;
-      border: 1px solid #060;
+      grid-template-columns: 1.5fr 5fr 1.5fr 1fr;
+      /* border: 1px solid #060; */
       text-align: center;
+    }
+    .left{
+      text-align: left;
+      padding-left: 10px !important;
     }
     .members-grid {
       display: grid;
       grid-template-columns: 3fr 2fr;
-      border: 1px solid #060;
+      /* border: 1px solid #060; */
       text-align: center;
     }
     .course-grid div {
-      border: 1px solid #060;
-      padding: 8px;
+      border: 3px double #060;
+      padding: 3px;
     }
     .members-grid div {
-      border: 1px solid #060;
-      padding: 8px;
+      border: 3px double #060;
+      padding: 3px;
     }
     .signatures {
       display: flex;
       justify-content: space-between;
       margin-top: 50px;
+    }
+    .signatures div img {
+      margin-top: 20px;
     }
     .form-footer {
       text-align: center;
